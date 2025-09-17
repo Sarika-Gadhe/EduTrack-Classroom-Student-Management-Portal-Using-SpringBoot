@@ -81,7 +81,6 @@ public Batch createBatch(@RequestBody Batch batch) {
 }
 
 
-
 ## 🗃️ MongoDB Sample Document
 
 {
