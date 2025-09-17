@@ -57,6 +57,7 @@ The EduTrack Portal is a full-stack Java-based web + client application designed
 ## 📂 Example Usage
 
 🖥️ Client Application Menu
+
 ===== EduTrack Portal =====
 1. Create New Batch  
 2. View All Batches  
@@ -71,6 +72,8 @@ Enter Choice: 1
 
 
 ## 🔧 Sample REST API (Spring Boot)
+
+```java
 // Example: Create Batch Endpoint
 @PostMapping("/batch")
 public Batch createBatch(@RequestBody Batch batch) {
@@ -80,6 +83,7 @@ public Batch createBatch(@RequestBody Batch batch) {
 
 
 ## 🗃️ MongoDB Sample Document
+
 {
   "batchId": "101",
   "batchName": "Pre-Placement Activity",
