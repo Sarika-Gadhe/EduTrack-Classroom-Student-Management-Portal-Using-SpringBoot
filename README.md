@@ -54,6 +54,46 @@ The EduTrack Portal is a full-stack Java-based web + client application designed
 
 ---
 
+## 📂 Example Usage
+
+🖥️ Client Application Menu
+===== EduTrack Portal =====
+1. Create New Batch  
+2. View All Batches  
+3. Update Batch Information  
+4. Delete Batch  
+5. Add Student to Batch  
+6. View Students in a Batch  
+7. Exit  
+
+Enter Choice: 1
+
+
+
+## 🔧 Sample REST API (Spring Boot)
+// Example: Create Batch Endpoint
+@PostMapping("/batch")
+public Batch createBatch(@RequestBody Batch batch) {
+    return batchRepository.save(batch);
+}
+
+
+
+## 🗃️ MongoDB Sample Document
+{
+  "batchId": "101",
+  "batchName": "Pre-Placement Activity",
+  "trainer": "Piyush Khairnar",
+  "students": [
+    { "name": "Sarika", "contact": "7641246786" },
+    { "name": "Sarthak", "contact": "8765943567" }
+  ]
+}
+
+
+
+
+
 
 
 
